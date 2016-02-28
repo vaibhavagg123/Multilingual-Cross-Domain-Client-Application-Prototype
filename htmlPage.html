@@ -1,0 +1,80 @@
+<html>
+<head>
+    <title>A multilingual cross domain client application prototype</title>
+    <script src="jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="MainScript.js"></script>
+    <link rel="stylesheet" type="text/css" href="Style.css">
+</head>
+<body id="idBody">
+    <div id="MainContent">
+        <h1 id="headerTitle">
+            A multilingual cross domain client application prototype for UNL-ization and NL-ization
+            for natural language processing applications
+        </h1>
+        <div id="leftSection">
+        <div id = "languageSelection">
+        <select id="ddlLanguageSelection">
+        <option value="" selected = "Select User Name"><span style="color:grey">Select Natural language</span></option>
+        <option value="parteek">Punjabi</option>
+        </select>
+        </div>
+            <div id="selectExamples">
+                <div id="PunjabiText">
+                    <button type="button" id="PunjabiExample" title="PunjabiExample">
+                        Click here to select some sample sentences</button>
+                </div>
+                <div id="UNLText">
+                    <button type="button" id="UNLExample" title="UNLExample">
+                        Click here to select sample UNL sentences</button>
+                </div>
+            </div>
+            <div id="questionArea">
+                <textarea rows="10" cols="50" id="InputArea" name="QuestionTextArea" placeholder="Please enter your natural language text here and press UNL-ize OR enter UNL text and press NL-ize"></textarea>
+            </div>
+            <div id="buttons">
+                <div id="IANButton">
+                    <button type="button" id="UNLize" title="UNL-ize">
+                        UNL-ize</button></div>
+                <div id="EUGENEButton">
+                    <button type="button" id="NLize" title="NL-ize">
+                        NL-ize</button></div>
+            </div>
+            <div id="OutputArea">
+                <div id="IANOutput">
+                    <textarea rows="10" cols="45%" id="IANOutputTextArea" name="IANTextArea"></textarea>
+                </div>
+                <div id="EUGENEOutput">
+                    <textarea rows="10" cols="45%" id="EUGENEOutputTextArea" name="EUGENETextArea"></textarea>
+                </div>
+            </div>
+        </div>
+        <div id="rightSection" disabled>
+            <div id="rightTitle">
+                SHARE YOUR DETAILS <span class = "idSpan">*</span>
+            </div>
+            <div id="languageInfo">
+                <input type="text" id="language" placeholder="Please enter your Natural language Name"
+                    class="share" />
+                <input type="text" id="UserName" placeholder="Please enter your User Name" class="share" />
+                <input type="text" id="WebServiceClientName" placeholder="Please enter web service client name"
+                    class="share" />
+                <input type="text" id="IANISOCode" placeholder="Please enter 3 character ISO code for IAN"
+                    class="share" />
+                <input type="text" id="EUGENEISOCode" placeholder="Please enter 3 character ISO code for EUGENE"
+                    class="share" />
+            </div>
+            <div id="shareButtonDiv">
+                <button type="button" title="Submit" id="shareButton" disabled="disabled">
+                    Share</button>
+            </div>
+            <div id = "rightSectionFooter">
+            <span class = "idSpan">*</span>  'Share' section is under development and currently disabled
+            </div>
+        </div>
+        <div id = "footer">
+        Please note that this is a prototype. Currently the prototype UNL-ize and NL-ize Punjabi text but in future client can select the languages that have been shared by other Researchers and Developers
+        </div>
+    </div>
+
+</body>
+</html>

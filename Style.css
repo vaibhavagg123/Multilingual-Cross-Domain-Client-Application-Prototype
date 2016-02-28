@@ -1,0 +1,168 @@
+body {
+background-color: black;
+}
+
+#idBody{
+
+}
+
+#MainContent{
+width:1200px;
+height:500px;
+margin-left:auto;
+margin-right:auto;
+display:block;
+
+}
+
+#headerTitle{
+text-align: center;
+background-color: Olive;
+color: white;
+}
+
+#leftSection{
+background-color: Olive;
+display: inline-block;
+width:890px;
+height: 500px;
+margin-top: 10px;
+}
+
+#languageSelection {
+margin-top: 1%;
+}
+
+#ddlLanguageSelection {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+#rightSection{
+background-color: Olive;
+width:300px;
+float:right;
+height: 500px;
+margin-top: 10px;
+}
+
+
+#selectExamples{
+width:805px;
+display: block;
+margin-left:auto;
+margin-right:auto;
+margin-top: 1%;
+}
+
+#PunjabiText{
+
+display: inline-block;
+width:49%;
+}
+
+#UNLText{
+
+display: inline-block;
+width:50%;
+text-align: right;
+}
+
+
+#questionArea{
+margin-top:10px;
+}
+
+#InputArea{
+width:800px;
+display: block;
+margin-left:auto;
+margin-right:auto;
+}
+
+
+#buttons{
+width:805px;
+display: block;
+margin-left:auto;
+margin-right:auto;
+
+}
+
+#IANButton{
+
+display: inline-block;
+width:49%;
+}
+
+#EUGENEButton{
+
+display: inline-block;
+width:50%;
+text-align: right;
+}
+
+#UNLize{
+
+}
+#NLize{
+}
+
+#OutputArea{
+
+width:800px;
+display: block;
+margin-left:auto;
+margin-right:auto;
+margin-top: 20px;
+}
+
+#IANOutput{
+display: inline-block;
+width: 50%;
+}
+
+#EUGENEOutput{
+display: inline-block;
+width: 49%;
+text-align: right;
+}
+
+#rightTitle{
+color: white;
+border-bottom-width: 2px;
+border-bottom-color: white;
+border-bottom-style: solid;
+text-align: center;
+}
+
+.share{
+width:95%;
+margin-top: 20px;
+height:20px;
+margin-left: auto;
+margin-right: auto;
+display: block;
+}
+#shareButtonDiv{
+text-align: center;
+}
+
+#shareButton{
+margin-top: 30px;
+}
+#footer, #rightSectionFooter
+{
+    margin-top: 10px;
+    background-color:Olive;
+    text-align: justify;
+}
+
+.idSpan
+{
+   color: Red;
+   font-weight: 900;
+      
+}
